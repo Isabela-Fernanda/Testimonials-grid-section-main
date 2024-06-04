@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    font-size: 1.3rem;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    background-color: var(--Light-grayish-blue);
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 7rem 2.5rem;
+    padding-bottom: 6rem;
+}
+
+section{
+    padding: 2.5rem 3rem;
+    border-radius: 1rem;
+    margin-bottom: 2.25rem;
+}
+
+.principal{
+    background-color: var(--Moderate-violet);
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 0%;
+    background-size: 32%;
+}
+
+.principal, .sessao1, .sessao3 {
+    color: var(--White);
+}
+
+.sessao1 {
+    background-color: var(--Very-dark-grayish-blue);
+}
+
+.sessao2, .sessao4 {
+    background-color: var(--White);
+    color: var(--Very-dark-grayish-blue);
+}
+
+.sessao3 {
+    background-color: var(--Very-dark-blackish-blue);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    margin-bottom: 1.8rem;
+}
+
+header p {
+    opacity: 50%;
+}
+
+img{
+    border-radius: 50%;
+    max-width: 3rem;
+    margin-right: 1.5rem;
+}
+
+.principal img {
+    border: 0.2rem solid var(--Light-gray);
+}
+
+.sessao3 img {
+    border: 0.2rem solid var(--Moderate-violet);
+}
+
+h1, h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    word-spacing: 0.06rem;
+    margin-bottom: 1.7rem;
+}
+
+article p {
+    opacity: 70%;
+    line-height: 1.77rem;
+    font-size: 1.32rem;
+    margin-bottom: 0.87rem;
+}
